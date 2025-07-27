@@ -1,0 +1,8 @@
+2025-07-25 21:07:50,484 - INFO - Reputation result: {
+  "target": "https://edu.sqi.ng",
+  "reputation": "safe",
+  "malicious_reports": 0,
+  "last_analyzed": "2025-07-26",
+  "score": 0,
+  "verdict": "SAFE"
+}, Hash: 09bcbc478b0cd46f711f2fb1cbc371fd28bc27bac4424c8781da0263851920bc

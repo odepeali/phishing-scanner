@@ -1,0 +1,42 @@
+2025-07-26 12:45:07,388 INFO WHOIS age edu.sqi.ng: {'age_days': 2968, 'is_new': False}
+2025-07-26 12:45:08,285 INFO SSL info edu.sqi.ng: {'valid': True, 'expires_in': 225, 'issuer': 'countryName=GB; stateOrProvinceName=Greater Manchester; localityName=Salford; organizationName=Sectigo Limited; commonName=Sectigo RSA Domain Validation Secure Server CA'}
+2025-07-26 12:45:12,084 INFO Content check https://edu.sqi.ng: {'keywords': 69, 'pw_field': False, 'forms': False}
+2025-07-26 12:45:12,087 INFO Heuristics edu.sqi.ng: 0, []
+2025-07-26 12:45:12,087 INFO Result: {"target": "https://edu.sqi.ng", "whois": {"age_days": 2968, "is_new": false}, "ssl": {"valid": true, "expires_in": 225, "issuer": "countryName=GB; stateOrProvinceName=Greater Manchester; localityName=Salford; organizationName=Sectigo Limited; commonName=Sectigo RSA Domain Validation Secure Server CA"}, "content": {"keywords": 69, "pw_field": false, "forms": false}, "heuristics": [], "reputation": {}} Hash: 1182ea27adf5a6efa9f6bdb38fd03f7b989ead95af9cc9bfa98b5fc28c8335cb
+2025-07-26 12:45:59,350 INFO WHOIS age facebook.com: {'age_days': 10346, 'is_new': False}
+2025-07-26 12:45:59,604 INFO SSL info facebook.com: {'valid': True, 'expires_in': 8, 'issuer': 'countryName=US; organizationName=DigiCert Inc; organizationalUnitName=www.digicert.com; commonName=DigiCert SHA2 High Assurance Server CA'}
+2025-07-26 12:46:00,827 INFO Content check https://facebook.com: {'keywords': 49, 'pw_field': True, 'forms': True}
+2025-07-26 12:46:00,831 INFO Heuristics facebook.com: 0, []
+2025-07-26 12:46:00,832 INFO Result: {"target": "https://facebook.com", "whois": {"age_days": 10346, "is_new": false}, "ssl": {"valid": true, "expires_in": 8, "issuer": "countryName=US; organizationName=DigiCert Inc; organizationalUnitName=www.digicert.com; commonName=DigiCert SHA2 High Assurance Server CA"}, "content": {"keywords": 49, "pw_field": true, "forms": true}, "heuristics": [], "reputation": {}} Hash: 15ad47a28fe2c3ae20526c4593614354cfe3f347a97af2eea91127ca83c80079
+2025-07-26 12:49:19,022 INFO WHOIS age facebook.com: {'age_days': 10346, 'is_new': False}
+2025-07-26 12:49:19,389 INFO SSL info facebook.com: {'valid': True, 'expires_in': 8, 'issuer': 'countryName=US; organizationName=DigiCert Inc; organizationalUnitName=www.digicert.com; commonName=DigiCert SHA2 High Assurance Server CA'}
+2025-07-26 12:49:20,698 INFO Content check https://facebook.com: {'keywords': 50, 'pw_field': True, 'forms': True}
+2025-07-26 12:49:20,702 INFO Heuristics facebook.com: 0, []
+2025-07-26 12:49:20,703 INFO Result: {"target": "https://facebook.com", "whois": {"age_days": 10346, "is_new": false}, "ssl": {"valid": true, "expires_in": 8, "issuer": "countryName=US; organizationName=DigiCert Inc; organizationalUnitName=www.digicert.com; commonName=DigiCert SHA2 High Assurance Server CA"}, "content": {"keywords": 50, "pw_field": true, "forms": true}, "heuristics": [], "reputation": {}} Hash: 67c585b654200e2e8d7688fccb1585a5a722dc4eb2993523621aa809876dc9c1
+2025-07-26 12:49:59,319 ERROR RDAP lookup failed for 72.20.10.11: Expecting value: line 1 column 1 (char 0)
+2025-07-26 12:49:59,319 INFO No WHOIS/RDAP date for 72.20.10.11
+2025-07-26 12:50:04,419 ERROR SSL lookup failed for 72.20.10.11: timed out
+2025-07-26 12:50:12,439 ERROR Content check failed for https://72.20.10.11: HTTPSConnectionPool(host='72.20.10.11', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f62414ce350>, 'Connection to 72.20.10.11 timed out. (connect timeout=8)'))
+2025-07-26 12:50:12,441 INFO Heuristics 72.20.10.11: 3, ['IP domain', 'deep subdomain']
+2025-07-26 12:50:12,442 INFO Result: {"target": "https://72.20.10.11", "whois": {"age_days": null, "is_new": false}, "ssl": {"valid": false, "expires_in": null, "issuer": "N/A"}, "content": {"keywords": 0, "pw_field": false, "forms": false}, "heuristics": ["IP domain", "deep subdomain"], "reputation": {}} Hash: 54decc64fea79c405ce5c6f2236964625b2eb51e49f1e13b9d24a8d241f4b598
+2025-07-26 12:50:58,330 ERROR RDAP lookup failed for 172.20.10.11: Expecting value: line 1 column 1 (char 0)
+2025-07-26 12:50:58,331 INFO No WHOIS/RDAP date for 172.20.10.11
+2025-07-26 12:50:58,426 ERROR SSL lookup failed for 172.20.10.11: [Errno 111] Connection refused
+2025-07-26 12:50:58,432 ERROR Content check failed for https://172.20.10.11: HTTPSConnectionPool(host='172.20.10.11', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fee19e7e350>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-26 12:50:58,433 INFO Heuristics 172.20.10.11: 3, ['IP domain', 'deep subdomain']
+2025-07-26 12:50:58,433 INFO Result: {"target": "https://172.20.10.11", "whois": {"age_days": null, "is_new": false}, "ssl": {"valid": false, "expires_in": null, "issuer": "N/A"}, "content": {"keywords": 0, "pw_field": false, "forms": false}, "heuristics": ["IP domain", "deep subdomain"], "reputation": {}} Hash: 04ce1819ca691e5b990827e3df668de7cb983c49a81cf131c8598c57414c7c8d
+2025-07-26 12:51:34,842 INFO WHOIS age allegion.com: {'age_days': 9348, 'is_new': False}
+2025-07-26 12:51:36,153 INFO SSL info allegion.com: {'valid': True, 'expires_in': 341, 'issuer': 'countryName=GB; organizationName=Sectigo Limited; commonName=Sectigo Public Server Authentication CA OV R36'}
+2025-07-26 12:51:39,686 INFO Content check https://allegion.com: {'keywords': 2, 'pw_field': False, 'forms': False}
+2025-07-26 12:51:39,687 INFO Heuristics allegion.com: 0, []
+2025-07-26 12:51:39,687 INFO Result: {"target": "https://allegion.com", "whois": {"age_days": 9348, "is_new": false}, "ssl": {"valid": true, "expires_in": 341, "issuer": "countryName=GB; organizationName=Sectigo Limited; commonName=Sectigo Public Server Authentication CA OV R36"}, "content": {"keywords": 2, "pw_field": false, "forms": false}, "heuristics": [], "reputation": {}} Hash: 9620d879bd94e8f394207cfa76827bf34adf209c151c48bfe5a3196a433d9b48
+2025-07-26 13:56:07,250 INFO WHOIS age allegion.com: {'age_days': 9348, 'is_new': False}
+2025-07-26 13:56:10,399 INFO SSL info allegion.com: {'valid': True, 'expires_in': 341, 'issuer': 'countryName=GB; organizationName=Sectigo Limited; commonName=Sectigo Public Server Authentication CA OV R36'}
+2025-07-26 13:56:16,710 INFO Content check https://allegion.com: {'keywords': 2, 'pw_field': False, 'forms': False}
+2025-07-26 13:56:16,711 INFO Heuristics allegion.com: 0, []
+2025-07-26 13:56:16,712 INFO Result: {"target": "https://allegion.com", "whois": {"age_days": 9348, "is_new": false}, "ssl": {"valid": true, "expires_in": 341, "issuer": "countryName=GB; organizationName=Sectigo Limited; commonName=Sectigo Public Server Authentication CA OV R36"}, "content": {"keywords": 2, "pw_field": false, "forms": false}, "heuristics": [], "reputation": {}} Hash: 9620d879bd94e8f394207cfa76827bf34adf209c151c48bfe5a3196a433d9b48
+2025-07-26 13:56:50,740 INFO WHOIS age edu.sqi.ng: {'age_days': 2968, 'is_new': False}
+2025-07-26 13:56:51,239 INFO SSL info edu.sqi.ng: {'valid': True, 'expires_in': 225, 'issuer': 'countryName=GB; stateOrProvinceName=Greater Manchester; localityName=Salford; organizationName=Sectigo Limited; commonName=Sectigo RSA Domain Validation Secure Server CA'}
+2025-07-26 13:56:56,143 INFO Content check https://edu.sqi.ng: {'keywords': 69, 'pw_field': False, 'forms': False}
+2025-07-26 13:56:56,144 INFO Heuristics edu.sqi.ng: 0, []
+2025-07-26 13:56:56,145 INFO Result: {"target": "https://edu.sqi.ng", "whois": {"age_days": 2968, "is_new": false}, "ssl": {"valid": true, "expires_in": 225, "issuer": "countryName=GB; stateOrProvinceName=Greater Manchester; localityName=Salford; organizationName=Sectigo Limited; commonName=Sectigo RSA Domain Validation Secure Server CA"}, "content": {"keywords": 69, "pw_field": false, "forms": false}, "heuristics": [], "reputation": {}} Hash: 1182ea27adf5a6efa9f6bdb38fd03f7b989ead95af9cc9bfa98b5fc28c8335cb
